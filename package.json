@@ -1,0 +1,26 @@
+{
+  "name": "travel-site",
+  "version": "1.0.0",
+  "description": "This is a project using workflow and modern web design best practices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahelhelou/travel-site.git"
+  },
+  "keywords": [
+    "Html",
+    "Css",
+    "JavaScript",
+    "Gulp",
+    "Npm"
+  ],
+  "author": "Mahmoud El Helou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahelhelou/travel-site/issues"
+  },
+  "homepage": "https://github.com/mahelhelou/travel-site#readme"
+}
