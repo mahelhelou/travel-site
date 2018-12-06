@@ -1,7 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
-  height: 10000px;
 }
 
 img {
@@ -14,5 +13,5 @@ img {
 }
 
 a {
-    color: $mainOrange;
+  color: $mainOrange;
 }
