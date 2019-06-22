@@ -23,6 +23,7 @@
             ### _site-footer.css
             ### _site-header.css
             ### _primary-nav.css
+            ### _reveal-item.css
 ==============================*/
 
 @import 'normalize.css';
@@ -45,3 +46,4 @@
 @import 'modules/_site-footer';
 @import 'modules/_site-header';
 @import 'modules/_primary-nav';
+@import 'modules/_reveal-item';
