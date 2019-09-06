@@ -1,13 +1,13 @@
 const gulp = require('gulp')
 const webpack = require('webpack')
 
-gulp.task('scripts', function (callback) {
-    webpack(require('../../webpack.config'), function (err, stats) {
+gulp.task('scripts', ['modernizr'], function(callback) {
+  webpack(require('../../webpack.config.js'), function(err, stats) {
+    if (err) {
+      console.log(err.toString())
+    }
 
-        if (err) {
-            console.log(err.toString())
-        }
-        console.log(stats.toString())
-        callback()
-    })
+    console.log(stats.toString())
+    callback()
+  })
 })
