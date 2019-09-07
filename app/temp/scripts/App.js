@@ -69,9 +69,12 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var mobileMenu = new _MobileMenu2.default();
+
 	new _RevealOnScroll2.default((0, _jquery2.default)(".feature-item"), "85%");
 	new _RevealOnScroll2.default((0, _jquery2.default)(".testimonial"), "60%");
+
 	var stickyHeader = new _StickyHeader2.default();
+
 	var modal = new _Modal2.default();
 
 /***/ },
@@ -9947,7 +9950,7 @@
 /* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -9978,12 +9981,12 @@
 	  }
 
 	  _createClass(RevealOnScroll, [{
-	    key: 'hideInitially',
+	    key: "hideInitially",
 	    value: function hideInitially() {
 	      this.itemsToReveal.addClass("reveal-item");
 	    }
 	  }, {
-	    key: 'createWaypoints',
+	    key: "createWaypoints",
 	    value: function createWaypoints() {
 	      var that = this;
 	      this.itemsToReveal.each(function () {

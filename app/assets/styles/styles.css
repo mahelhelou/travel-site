@@ -1,7 +1,42 @@
+/*====================================
+        # TABLE OF CONTENTS
+            ## BASE FILES
+                ### normalize.css
+                ### variables.css
+                ### mixins.css
+                ### global.css
+
+            ## MOBULES
+                ### large-hero.css
+                ### btn.css
+                ### wrapper.css
+                ### page-section.css
+                ### headline.css
+                ### row.css
+                ### generic-content-container.css
+                ### section-title.css
+                ### feature-item.css
+                ### testimonial.css
+                ### sprite.css
+                ### site-footer.css
+                ### site-header.css
+                ### primary-nav.css
+                ### reveal-item.css
+                ### modal.css
+                ### social-icons.css
+====================================*/
+
+/*====================================
+        BASE & GENERAL FILES
+====================================*/
 @import "normalize.css";
 @import "base/_variables";
 @import "base/_mixins";
 @import "base/_global";
+
+/*====================================
+        MODULES & COMPONENTS
+====================================*/
 @import "modules/_large-hero";
 @import "modules/_btn";
 @import "modules/_wrapper";

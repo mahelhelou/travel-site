@@ -1,3 +1,35 @@
+/*====================================
+        # TABLE OF CONTENTS
+            ## BASE FILES
+                ### normalize.css
+                ### variables.css
+                ### mixins.css
+                ### global.css
+
+            ## MOBULES
+                ### large-hero.css
+                ### btn.css
+                ### wrapper.css
+                ### page-section.css
+                ### headline.css
+                ### row.css
+                ### generic-content-container.css
+                ### section-title.css
+                ### feature-item.css
+                ### testimonial.css
+                ### sprite.css
+                ### site-footer.css
+                ### site-header.css
+                ### primary-nav.css
+                ### reveal-item.css
+                ### modal.css
+                ### social-icons.css
+====================================*/
+
+/*====================================
+        BASE & GENERAL FILES
+====================================*/
+
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -438,6 +470,10 @@ img {
 a {
   color: #d59541;
 }
+
+/*====================================
+        MODULES & COMPONENTS
+====================================*/
 
 .large-hero {
   border-bottom: 10px solid #2f5572;
