@@ -1,9 +1,13 @@
 .feature-item {
   position: relative;
-  padding-bottom: 2.5rem;
+  padding-bottom: 1.2rem;
 
   @mixin atSmall {
     padding-left: 94px;
+  }
+
+  @minxin atMedium {
+    padding-bottom: 2.4rem;
   }
 
   &__icon {
